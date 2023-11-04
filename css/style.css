@@ -1,0 +1,27 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar {
+    width: 290px !important;
+    height: 595px !important;
+    background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    padding: 50px 40px 40px 40px !important;
+}
+
+.img-logo {
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+}
+
+.img-logo li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    list-style-type: none;
+    margin: 19px 0px;
+
+}

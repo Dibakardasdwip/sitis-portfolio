@@ -1,27 +1,160 @@
+:root {
+    --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414);
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sidebar {
-    width: 290px !important;
+    /* width: 290px !important;
     height: 595px !important;
     background-color: linear-gradient(145deg, #e2e8ec, #ffffff);
+    padding: 50px 40px 40px 40px !important; */
+    background-color: var(--gradient-box-w);
+
+}
+
+.left-header-style {
+    width: 290px;
     padding: 50px 40px 40px 40px !important;
 }
+
 
 .img-logo {
     width: 192px;
     height: 192px;
     border-radius: 50%;
+    border-color: #FFFFFF !important;
 }
+
+.nav-item {}
+
 
 .img-logo li {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     font-display: swap;
+    line-height: 24px;
     list-style-type: none;
     margin: 19px 0px;
+    width: 127.234px;
+    height: 24px;
 
+
+}
+
+#navbar-items {
+
+    padding: 30px 0px 0px 10px;
+}
+
+
+.img-logo li svg {
+    margin-right: 15px;
+    align-items: center;
+}
+
+.social-share-style-1 .social-share {
+    margin-right: -15px;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.liststyle {
+    padding: 0;
+    list-style: none;
+}
+
+
+.social-share a {
+    background: #f0f0f0;
+    background-image: -webkit-linear-gradient(top, #f0f0f0, #f2f7fa);
+    background-image: -moz-linear-gradient(top, #f0f0f0, #f2f7fa);
+    background-image: -ms-linear-gradient(top, #f0f0f0, #f2f7fa);
+    background-image: -o-linear-gradient(top, #f0f0f0, #f2f7fa);
+    background-image: linear-gradient(to bottom, #f0f0f0, #f2f7fa);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    -webkit-box-shadow: 5px 5px 15px #D1D9E6;
+    -moz-box-shadow: 5px 5px 15px #D1D9E6;
+    box-shadow: 5px 5px 15px #D1D9E6;
+    font-family: Arial;
+    color: #e0dfdf;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    width: 53px !important;
+    height: 53px !important;
+
+}
+
+.social-share a:hover {
+    background: #ff014f;
+    background-image: -webkit-linear-gradient(top, #ff014f, #d11414);
+    background-image: -moz-linear-gradient(top, #ff014f, #d11414);
+    background-image: -ms-linear-gradient(top, #ff014f, #d11414);
+    background-image: -o-linear-gradient(top, #ff014f, #d11414);
+    background-image: linear-gradient(to bottom, #ff014f, #d11414);
+    text-decoration: none;
+}
+
+.social-share a svg {
+    margin: 5px;
+}
+
+.social-share {
+
+    text-align: center;
+}
+
+.social-share svg {
+    margin-right: 0px !important;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+#find {
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: var(--color-lightn);
+    display: inline-block;
+    margin-bottom: 20px;
 }
